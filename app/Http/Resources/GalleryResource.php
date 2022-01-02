@@ -4,19 +4,21 @@ namespace App\Http\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;
 
-class PostResource extends JsonResource
+class GalleryResource extends JsonResource
 {
     
     public function toArray($request)
     {
         // // show all items
-        // return parent::toArray($request); 
+        // return parent::toArray($request);
 
         // show custom items
         return [
             'id' => $this->id,
             'title' => $this->title,
-            'body' => $this->body
+            'slug' => $this->slug,
+            'image' => $this->image,
+            'description' => $this->description
         ];
     }
 

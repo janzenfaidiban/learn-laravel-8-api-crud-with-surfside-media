@@ -6,7 +6,8 @@
 <ul>
     <li>OK --- Creating laravel project</li>
     <li>OK --- Post API CRUD</li>
-    <li>NOT YET --- Gallery API CRUD</li>
+    <li>OK --- Gallery API CRUD</li>
+    <li>NOT YET --- Deploy to the internet</li>
 </ul>
 
 ## Folder Setup
@@ -57,4 +58,12 @@ php artisan make:controller NameController -r
 ### Creating Resourse
 ```
 php artisan make:resource NameController
+```
+
+# NOTES
+### Adding "str_slug()" function
+```
+use Illuminate\Support\Str;
+
+str_slug($request->title)
 ```

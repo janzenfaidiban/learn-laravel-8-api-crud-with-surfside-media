@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\GalleryController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -25,3 +26,10 @@ Route::post('/post', [PostController::class, 'store']);
 Route::get('/posts/{id}', [PostController::class, 'show']);
 Route::put('/posts/{id}', [PostController::class, 'update']);
 Route::delete('/posts/{id}', [PostController::class, 'destroy']);
+
+
+Route::get('/gallery', [GalleryController::class, 'index']);
+Route::post('/gallery', [GalleryController::class, 'store']);
+Route::get('/gallery/{id}', [GalleryController::class, 'show']);
+Route::put('/gallery/{id}', [GalleryController::class, 'update']);
+Route::delete('/gallery/{id}', [GalleryController::class, 'destroy']);
