@@ -18,7 +18,7 @@ php artisan migrate
 
 ### Creating Migration
 ```
-
+php artisan migrate
 ```
 
 ### Creating Factory
