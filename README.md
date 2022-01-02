@@ -6,7 +6,7 @@
 <ul>
     <li>OK --- Creating laravel project</li>
     <li>OK --- Post API CRUD</li>
-    <li>OK --- Post API CRUD</li>
+    <li>NOT YET --- Gallery API CRUD</li>
 </ul>
 
 ## Folder Setup
