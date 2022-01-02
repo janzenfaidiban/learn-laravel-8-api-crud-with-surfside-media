@@ -1,5 +1,13 @@
-# Learn Laravel 8 API CRUD 
+# Learn Laravel 8 API CRUD with Surfside Media
 | Tutorial Video https://youtu.be/3Uy0KRPHQik
+
+# TODOS
+
+<ul>
+    <li>OK --- Creating laravel project</li>
+    <li>OK --- Post API CRUD</li>
+    <li>OK --- Post API CRUD</li>
+</ul>
 
 ## Folder Setup
 <ul>
@@ -28,7 +36,7 @@ php artisan migrate
 
 ### Creating Migration
 ```
-php artisan migrate
+php artisan make:migration create_posts_table
 ```
 
 ### Creating Factory
