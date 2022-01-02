@@ -1,6 +1,16 @@
 # Learn Laravel 8 API CRUD 
 | Tutorial Video https://youtu.be/3Uy0KRPHQik
 
+## Folder Setup
+<ul>
+    <li>App/Http/Controllers</li>
+    <li>App/Http/Resources</li>
+    <li>App/Models</li>
+    <li>Database/factories</li>
+    <li>Database/migrations</li>
+    <li>Database/seeders</li>
+</ul>
+
 ### Creating Project
 ```
 composer create-project laravel/laravel project-name
