@@ -63,6 +63,8 @@ php artisan make:resource NameController
 # NOTES
 ### Adding "str_slug()" function
 ```
+composer require laravel/helpers
+
 use Illuminate\Support\Str;
 
 str_slug($request->title)
